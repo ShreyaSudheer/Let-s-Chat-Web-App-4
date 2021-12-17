@@ -1,0 +1,13 @@
+body{
+    background-color: #ff6161;
+}
+#divmessage
+{
+background: rgb(250, 216, 216);
+border-radius: 10px;
+border-top: 10px solid #f88484;
+border-bottom: 10px solid #f88484;
+padding: 10px;
+float: none;
+text-align: left;
+}

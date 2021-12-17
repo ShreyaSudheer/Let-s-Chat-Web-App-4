@@ -1,0 +1,18 @@
+body{
+    background-color: #ff6161;
+}
+#output
+{
+background: rgb(250, 216, 216);
+border-radius: 10px;
+border-top: 10px solid #f88484;
+border-bottom: 10px solid #f88484;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#line{
+    background-color: rgb(247, 165, 165);
+    border-radius:  15px;
+    
+}

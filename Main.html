@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Let's Chat Web App!!</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Main.css">
+</head>
+<body>
+    <center>
+    <div class="container">
+      <h1 style="color: black; font-family: cursive;">Hey! Let's Chat!</h1>
+      <h4 style="color: black; font-family: cursive;">Add The Room Name To Chat With People....</h4>
+      <hr width="160">
+      <h3 id="username" style="color: black; font-family:cursive; font-size:  30px;"></h3>
+<hr width="150">
+
+      <input placeholder="#Room Name" id="room_name" style="width: 700px; height: 40px; border-radius: 10px; border-color: rgb(238, 124, 147); color: rgb(250, 78, 107); font-family: cursive;">
+      <br>
+      <br>
+      <button onclick="addRoom();" style="background-color: rgb(247, 149, 169); color:black; font-family: cursive; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; border-color: rgb(241, 82, 108);" >Create Room</button>
+      <br>
+      <br>
+      <div class="container" id="line">
+<h2 style="color: black; font-family: cursive;">Trending Rooms</h2>
+<hr width="150">
+<div id="output" style="text-align: center; font-size:20px; color: black;"></div>
+</div>
+    </div>
+</center>
+<script src="Main.js"></script>
+</body>
+</html>

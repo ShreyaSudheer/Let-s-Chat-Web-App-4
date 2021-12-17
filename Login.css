@@ -1,0 +1,28 @@
+body{
+    background-color: #ff6161;
+}
+.start_div
+{
+	background: rgba(253, 136, 136, 0.8);
+    float: none;
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+
+.logo
+{
+	width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+#login_button
+{
+    background-color:rgb(241, 128, 128);
+	width: 50%;
+    border-radius: 15px;
+    border-color: brown;
+    height:50px;
+    font-size: 20px;
+    color:rgb(241, 69, 69);
+}
